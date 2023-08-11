@@ -1,0 +1,63 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+
+/* Текстовые стили */
+.font-playfair{
+    font-family: 'Playfair Display', serif;
+}
+.letter-spacing{
+    letter-spacing: 2px;
+}
+
+
+
+/* Фоновые изображения */
+#background-1{
+    background-image: url(img/bg-1.jpg);
+}
+
+#background-2{
+    background-image: url(img/img1.jpg);
+}
+
+#background-3{
+    background-image: url(img/img2.jpg);
+}
+
+#background-4{
+    background-image: url(img/img3.jpg);
+}
+
+#background-5{
+    background-image: url(img/bg2.jpg);
+}
+
+#background-6{
+    background-image: url(img/img4.jpg);
+}
+
+#background-7{
+    background-image: url(img/img5.jpg);
+}
+
+#background-8{
+    background-image: url(img/img6.jpg);
+}
+
+.background-image{
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* Стили минимальной высоты */
+.min-vh-90{
+    min-height: 90vh;
+}
+.min-vh-50{
+    min-height: 50vh;
+}
